@@ -1,0 +1,21 @@
+{
+    "name": "faris/confirmation_unstim",
+    "description": "Système de génération d'autorisation de paiement",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Faris\\ConfirmationUnstim\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ogbèni Rider",
+            "email": "fariscastrochabi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "dompdf/dompdf": "^3.1"
+    }
+}
